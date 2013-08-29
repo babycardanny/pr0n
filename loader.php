@@ -43,10 +43,13 @@ $query      = ( isset($_SERVER['QUERY_STRING']) ) ? $_SERVER['QUERY_STRING'] : N
 $request    = str_replace($relative, '', $_SERVER['REQUEST_URI']);
 $request    = str_replace('?' .$query, '', $request);
 $request    = explode('/', trim($request, '/'));
-if (isset($request['0'])) {
-    $page   = $request['0'];
-    if (isset($loaders[$page])) {
-        require $page. '.php';
+echo $request[1] . ' ' . $request[1];
+if (isset($request['1'])) {
+    $page   = $request['1'];
+    echo $page . '.php';
+
+   if (isset($loaders[$page])) {
+        require $relative . '/' . $page . '.php';
     } else {
 		header('HTTP/1.0 404 Not Found');
   		die();

@@ -1,7 +1,7 @@
 <?php
 defined('_VALID') or die('Restricted Access!');
 $config = array();
-$config['BASE_URL'] = '';
+$config['BASE_URL'] = 'http://localhost/pr0n';
 $config['RELATIVE'] = 'http://localhost/pr0n';
 $config['BASE_DIR'] = dirname(dirname(__FILE__));
 $config['TMP_DIR'] = $config['BASE_DIR']. '/tmp';

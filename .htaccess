@@ -17,8 +17,8 @@ Options +FollowSymLinks
 	# as the baseurl for the site and users access your site 
 	# via domain.com (THIS IS REQUIRED FOR JQUERY TO WORK)
 	
-	RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
-	RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301] 
+	RewriteCond %{HTTP_HOST} ^http://localhost/pr0n [NC]
+	RewriteRule ^(.*)$ http://localhost/pr0n/$1 [L,R=301] 
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
