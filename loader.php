@@ -45,10 +45,11 @@ $request    = str_replace('?' .$query, '', $request);
 $request    = explode('/', trim($request, '/'));
 if (isset($request['1'])) {
     $page   = $request['1'];
-    echo $page . '.php';
-    die();
+  //  echo $page . '.php';
    if (isset($loaders[$page])) {
-        include $relative . '/' . $page . '.php';
+      //  require $page . '.php';
+       $str = $page . '.php';
+        require $str;
     } else {
 		header('HTTP/1.0 404 Not Found');
   		die();
