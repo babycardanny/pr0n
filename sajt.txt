@@ -1,4 +1,4 @@
 - Promeniti logo
 - Srediti Terms Of Service
 - dodati kategorije
-- srediti linkove u futeru i u hederu ispod jezika
+//- srediti linkove u futeru i u hederu ispod jezika
