@@ -62,9 +62,9 @@
 			<div class="clear_right"></div>
             {/if}
             <div id="toplinks" class="grey small">
-                <a href="{$relative}/invite" rel="nofollow">{translate c='global.invite_friends'}</a> <strong>&middot;</strong> 
-                <a href="{$relative}/feedback" rel="nofollow">{translate c='global.support_feedback'}</a> <strong>&middot;</strong> 
-                <a href="{$relative}/notices">{$site_name} {translate c='global.notice'}</a>
+            <!--    <a href="{$relative}/invite" rel="nofollow">{translate c='global.invite_friends'}</a> <strong>&middot;</strong> -->
+                <a href="{$relative}/feedback" rel="nofollow">{translate c='global.support_feedback'}</a> <strong></strong> 
+            <!--    <a href="{$relative}/notices">{$site_name} {translate c='global.notice'}</a> -->
             </div>
 			<div id="slidetabsmenu">
 			<ul>

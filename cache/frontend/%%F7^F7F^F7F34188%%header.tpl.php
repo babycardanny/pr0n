@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2013-08-29 02:01:34
+<?php /* Smarty version 2.6.20, created on 2013-10-01 00:50:35
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'header.tpl', 4, false),array('function', 't', 'header.tpl', 19, false),array('function', 'translate', 'header.tpl', 46, false),array('insert', 'language', 'header.tpl', 38, false),)), $this); ?>
@@ -120,16 +120,16 @@ echo smarty_core_run_insert_handler(array('args' => array('name' => 'language', 
 			<div class="clear_right"></div>
             <?php endif; ?>
             <div id="toplinks" class="grey small">
-                <a href="<?php echo $this->_tpl_vars['relative']; ?>
+            <!--    <a href="<?php echo $this->_tpl_vars['relative']; ?>
 /invite" rel="nofollow"><?php echo smarty_function_translate(array('c' => 'global.invite_friends'), $this);?>
-</a> <strong>&middot;</strong> 
+</a> <strong>&middot;</strong> -->
                 <a href="<?php echo $this->_tpl_vars['relative']; ?>
 /feedback" rel="nofollow"><?php echo smarty_function_translate(array('c' => 'global.support_feedback'), $this);?>
-</a> <strong>&middot;</strong> 
-                <a href="<?php echo $this->_tpl_vars['relative']; ?>
+</a> <strong></strong> 
+            <!--    <a href="<?php echo $this->_tpl_vars['relative']; ?>
 /notices"><?php echo $this->_tpl_vars['site_name']; ?>
  <?php echo smarty_function_translate(array('c' => 'global.notice'), $this);?>
-</a>
+</a> -->
             </div>
 			<div id="slidetabsmenu">
 			<ul>
